@@ -1,0 +1,164 @@
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+  
+.grid-container {
+  display: grid;
+  grid-template-rows: 1fr 5fr 1fr;
+  grid-template-columns: 70vw 30vw;
+  height: 90vh;
+  width: 100%;
+}
+  
+.header-container {
+  height: 149px;
+  grid-column: 1/3;
+  grid-row: 1;
+  padding: 12px;
+}
+.nav-container {  
+  
+  height: 439px;
+  background-color: #b16e96e0;
+  border-bottom:20px solid teal;
+  color: #150303;
+  display: flex;
+  padding: 68px 211px;
+  flex-wrap: nowrap;
+  align-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.main-container {
+  grid-column: 1/2;
+  grid-row: 2;
+  height: 70vh;
+  
+  background-size: cover;
+}
+
+.sidebar-container {
+  grid-column: 2/3;
+  grid-row: 2;
+  padding: 10px;
+  background-color: teal;
+}
+
+.footer-container {
+  grid-column: 1/3;
+  grid-row: 3;
+  padding: 10px;
+  border-top: 60px solid;
+     background-color: #d30080ab;
+}
+
+.logo-position {
+  display: flex;
+    justify-content: center;
+    align-self: center;
+}
+/* <div> <class="center-column"> */
+.center-column {
+  display: grid;
+  align-self: stretch;
+  align-items: center;
+  width: 700px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.header-flex {
+  display: flex;
+  justify-content:end;
+  align-items: center;
+  padding-top: 20px;
+}
+
+nav a {
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+  margin: 0 20px;
+}
+
+a {
+  text-decoration: none;
+}
+  
+a:hover {
+  color: teal;
+}
+
+.sidebar-accent {
+  text-transform: lowercase;
+  font-size: 16px;
+  color: #333;
+  padding: 30px 30px 10px 30px;
+}
+
+.sidebar-title {
+  font-size: 50px;
+  font-weight: bold;
+  padding-left: 30px;
+  width: 400px;
+  border-bottom: 5px solid #b44a90;
+}
+
+.sidebar-tagline {
+  font-size: 16px;
+  line-height: 25px;
+  color: #333;
+  padding-left: 30px;
+  margin-top: 50px;
+}
+
+.btn-spacing {
+  padding-left: 30px;
+  margin-top: 20px;
+}
+
+.sidebar-btn {
+  background-color: #C7647B;
+  color: #ffffff;
+  margin-top: 15px;
+  width: 200px;
+  height: 60px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.sidebar-btn i {
+  color: #ffffff;
+}
+
+.btn-flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-flex {
+  display: flex;
+  direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icons-flex {
+  display: flex;
+}
+  
+.square {
+  margin-right: 10px;
+}
+
+a .square {
+  color: #333;
+}
+
+a .square:hover {
+  color: #C7647B;
+}
