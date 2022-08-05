@@ -20,6 +20,13 @@ body {
     justify-content: center;
   }
 
+  .pic-wrapper {
+    height: 300px;
+    width: 350px;
+    border: 1px solid #8a817c;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #8a817c;
+  }
   
   
 
